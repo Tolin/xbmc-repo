@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tolin" name="TOLIN XBMC Add-ons" version="1.0.1" provider-name="tolin">
+<requires>
+	<import addon="xbmc.addon" version="12.0.0" />
+</requires>
+	<extension point="xbmc.addon.repository" name="TOLIN XBMC Add-ons">
+		<dir minversion="14.0.0">
+			<info compressed="false">https://github.com/Tolin/xbmc-repo.git/addons.xml</info>
+			<checksum>https://github.com/Tolin/xbmc-repo.git/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/Tolin/xbmc-repo.git/</datadir>
+			<hashes>true</hashes>>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from Tolin Repository</summary>
+		<description lang="en">It's a popular Russian and International media resources for XBMC</description>
+		<description lang="ru">Это популярные Российские и Международные медиа ресурсы для XBMC</description>
+		<disclaimer>All rights reserved</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
